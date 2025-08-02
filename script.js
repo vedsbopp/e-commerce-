@@ -2,7 +2,7 @@
 const products = [
   { name: "Tiger", price: 390000, image: "kartik-iyer-DJ4vjcD0s0I-unsplash.jpg" },
   { name: "Lion", price: 510000, image: "jean-wimmerlin-FC4GY9nQuu0-unsplash.jpg" },
-  { name: "Dogesh Bhai", price: 999999, image: "20240325_131006.jpg" },
+  { name: "Dogesh Bhai", price: 999999, image: "gorrila.jpg" },
   { name: "Gorilla", price: free ("optional"), image: "20240325_131006.jpg" }
 ];
 
@@ -68,6 +68,7 @@ function buyNow() {
 
 // Start the app
 displayProducts();
+
 
 
 
