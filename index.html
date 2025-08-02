@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple E-Commerce</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Veds Animal Shop</h1>
+    <div id="cart">Cart 🛒 <span id="cart-count">0</span></div>
+  </header>
+
+  <main>
+    <!-- Product List -->
+    <section class="products" id="product-list"></section>
+
+    <!-- Cart Summary -->
+    <section class="cart-area">
+      <h2> Your Cart</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: ₹<span id="total-price">0</span></p>
+      <button onclick="buyNow()">Buy Now</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
